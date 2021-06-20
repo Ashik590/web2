@@ -1,0 +1,209 @@
+body {
+    overflow-x: hidden;
+}
+
+#secure {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 50px;
+    align-items: center;
+}
+
+#secure h1 {
+    max-width: 60%;
+}
+
+.ser {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-top: 40px;
+}
+
+.ser1 {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.ser1 h4 {
+    color: #132339;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+
+.ser1 img {
+    margin-bottom: 30px;
+    background: #FFDDFE;
+    padding: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+
+.ser1:nth-of-type(2) img {
+    background: #E3F6FB;
+}
+
+.ser1:nth-of-type(3) img {
+    background: #FFDCDE;
+}
+
+.ser1:nth-of-type(4) img {
+    background: #E0EBF8;
+}
+
+.ser1:nth-of-type(5) img {
+    background: #E2F8E4;
+}
+
+.ser1:nth-of-type(6) img {
+    background: #FFF6DE;
+}
+
+.ser1:hover h4 {
+    color: #3694F5;
+}
+
+.ser1:hover img {
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+}
+
+
+/* DEDO section is here  */
+
+#dedi {
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.dedi2 {
+    position: relative;
+}
+
+.dedi1 {
+    max-width: 50%;
+}
+
+.dedi1 ul li {
+    background: white;
+    padding: 14px 18px;
+    margin: 20px 0;
+    box-shadow: 0px 10px 19px -9px #0000003a;
+}
+
+.dedi1 ul li:first-of-type {
+    color: #fc525e;
+}
+
+.dedi1 ul li:nth-of-type(2),
+.dedi1 ul li:nth-of-type(3) {
+    color: #6C7178;
+}
+
+.dedi1 ul {
+    margin-top: 50px;
+    font-size: 19px;
+}
+
+.dedi2 img[alt="dedi2"] {
+    position: absolute;
+    left: 70px;
+    top: -65px;
+    z-index: -1;
+}
+
+.dedi1 ul li i {
+    margin-right: 15px;
+}
+
+
+/* TASK section is here  */
+
+#task {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 50px;
+    align-items: center;
+}
+
+.task22 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-top: 80px;
+}
+
+.task221 h4 {
+    color: #132339;
+}
+
+.task2 {
+    max-width: 55%;
+}
+
+.task221 img {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.task221 img[alt="task21"] {
+    background: #4BA0FF;
+    padding: 20px;
+}
+
+.task221 img[alt="task22"] {
+    background: #FBD06F;
+    padding: 20px;
+}
+
+.task221 img[alt="task23"] {
+    background: #A097FF;
+    padding: 20px;
+}
+
+.task221 img[alt="task24"] {
+    background: #48DB7A;
+    padding: 20px;
+}
+
+.task221:first-of-type,
+.task221:nth-of-type(2) {
+    margin-bottom: 40px;
+}
+
+.taskImg {
+    width: 350px;
+}
+
+.task221:first-of-type,
+.task221:nth-of-type(3) {
+    padding-right: 20px;
+}

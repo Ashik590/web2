@@ -1,0 +1,30 @@
+@media(max-width:1200px){
+    .rec2 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .rec21{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:860px){
+    .rec2 {
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width:460px){
+    .rec21 img{
+        width: 300px;
+    }
+}
+@media(max-width:380px){
+    .rec21 img{
+        width: 280px;
+    }
+}
+@media(max-width:350px){
+    .rec21 img{
+        width: 250px;
+    }
+}

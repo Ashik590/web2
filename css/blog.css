@@ -1,0 +1,78 @@
+#recent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 50px;
+}
+.rec2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+.rec21 {
+    margin: 20px 10px;
+    background: white;
+    box-shadow: 0px 10px 25px -8px #00000075;
+    border-radius: 15px;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+
+.rec21:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.rec21 div{
+    padding: 20px;
+}
+.rec21 div span{
+    color: #626c77 ;
+    font-weight: 600;
+}
+.rec21 div h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 21px 0;
+    color: #132339;
+}
+
+.pagi{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.pagi span {
+    margin: 0 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    display: grid;
+    width: 35px;
+    height: 35px;
+    place-items: center;
+}
+.pagi a{
+    text-decoration: none;
+    color: #132339;
+}
+.pagi span:hover{
+    background: #19CB55;
+}
+.pagi span:hover a{
+    color: white;
+}

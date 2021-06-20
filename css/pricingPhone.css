@@ -1,0 +1,58 @@
+@media(max-width:1200px){
+    .price2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .price21 {
+        margin-bottom: 35px;
+        padding: 40px 0px;
+    }
+}
+@media(max-width:1050px){
+    #login form {
+        width: 80%;
+    }
+}
+@media(max-width:750px){
+    #box {
+        flex-direction: column-reverse;
+    }
+    .box1 {
+        display: none;
+    }
+    .box2 {
+        max-width: 80%;
+    }
+    #login form {
+        width: 100%;
+    }
+}
+@media(max-width:550px){
+    .box2 {
+        max-width: 100%;
+    }
+    #login form {
+        padding: 50px 20px;
+    }
+}
+@media(max-width:500px){
+    #login {
+        padding: 100px 30px;
+    }
+    .remem {
+        flex-direction: column;
+    }    
+}
+@media(max-width:420px){
+    #price{
+        padding: 80px 20px;
+    }
+    #price h1{
+        padding: 0 30px;
+    }
+}
+@media(max-width:350px){
+    .price21 ul {
+        margin:30px 10px;
+    }
+}

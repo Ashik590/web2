@@ -1,0 +1,78 @@
+#login{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 50px;
+    align-items: center;
+}
+#login form{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   width: 60%;
+   padding: 50px;
+   border: 1px solid #ddd;
+   position: relative;
+}
+#login form h1{
+    margin-bottom: 65px;
+}
+#login form input{
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.remem{
+    display: flex;
+    justify-content: space-between;
+}
+.rekha{
+    height: 1px;
+    width: 100%;
+    background: rgb(212, 212, 212);
+    margin: 50px 0;
+}
+.or{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,3px);
+    -webkit-transform: translate(-50%,3px);
+    -moz-transform: translate(-50%,3px);
+    -ms-transform: translate(-50%,3px);
+    -o-transform: translate(-50%,3px);
+    width: 42px;
+    height: 23px;
+    top: 73%;
+    background: white;
+}
+.loginBtn,.regiBtn {
+    border: none;
+    background: #5E50F6;
+    color: white;
+    padding: 18px;
+    margin-top: 40px;
+    border-radius: 40px;
+    font-weight: 600;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+.regiBtn{
+    background: #19CB55;
+    margin-top: 0px;
+}
+.loginBtn:hover{
+    background: #19CB55;
+}
+.regiBtn:hover{
+    background: #5E50F6;
+}
+input[type="checkbox"]{
+    margin-right: 5px;
+}
+.re span{
+    color: #132339;
+}
