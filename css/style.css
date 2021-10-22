@@ -782,7 +782,7 @@ footer {
     border: none;
     background: #37d806;
     border-radius: 5px;
-    box-shadow: 0px 1px 7px 2px #0000007a, 0px 0px 2px 0px #11111185;
+    box-shadow:0px 1px 9px 2px #0000005e, 0px 0px 3px 0px #1111118c;
     color: #fff;
     z-index: 5;
     opacity: 0;
